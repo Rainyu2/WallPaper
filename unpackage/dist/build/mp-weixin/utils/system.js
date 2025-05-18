@@ -1,0 +1,1 @@
+"use strict";const t=require("../common/vendor.js").index.getSystemInfoSync(),e=()=>t.statusBarHeight||15,r=()=>40;exports.getLeftIconLeft=()=>0,exports.getNavBarHeight=()=>e()+40,exports.getStatusBarHeight=e,exports.getTitleBarHeight=r;

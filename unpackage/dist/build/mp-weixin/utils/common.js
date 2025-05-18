@@ -1,0 +1,1 @@
+"use strict";require("../common/vendor.js"),exports.formatTimeAgo=function(e){const r=Date.now()-Number(e),t=Math.abs(r);if(t<6e4)return"1分钟";if(t<36e5){return`${Math.floor(t/6e4)}分钟`}if(t<864e5){return`${Math.floor(t/36e5)}小时`}if(t<2592e6){return`${Math.floor(t/864e5)}天`}if(t<7776e6){return`${Math.floor(t/2592e6)}个月`}return null};
